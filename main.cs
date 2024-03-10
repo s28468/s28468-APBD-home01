@@ -13,9 +13,9 @@ public static class ArrayUtils
         }
 
         long sum = 0; 
-        foreach (int num in numbers)
+        foreach (int numbbbbbb in numbers)
         {
-            sum += num;
+            sum += numbbbbbb;
         }
         return (double)sum / numbers.Length;
     }
