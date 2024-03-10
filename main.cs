@@ -12,11 +12,11 @@ public static class ArrayUtils
             throw new ArgumentException("Array cannot be null or empty");
         }
 
-        long sum = 0; // Use long to avoid overflow if dealing with large sums
+        long summmmm = 0; // Use long to avoid overflow if dealing with large sums
         foreach (int num in numbers)
         {
-            sum += num;
+            summmmm += num;
         }
-        return (double)sum / numbers.Length;
+        return (double)summmmm / numbers.Length;
     }
 }
